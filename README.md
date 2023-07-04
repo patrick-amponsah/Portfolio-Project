@@ -4,6 +4,7 @@
   <br/>
   <h3><b>Portfolio</b></h3>
 </div>
+
 # :green_book: Table of Contents
 - [:book: About the Project](#about-project)
   - [:hammer_and_wrench: Built With](#built-with)
@@ -16,19 +17,20 @@
   - [Prerequisites](#prerequisites)
   - [Install](#install)
   - [Usage](#usage)
-  - [Run tests](#run-tests)
   - [Deployment](#deployment)
 - [:busts_in_silhouette: Authors](#authors)
 - [:telescope: Future Features](#future-features)
 - [:handshake: Contributing](#contributing)
 - [:star:️ Show your support](#support)
 - [:pray: Acknowledgements](#acknowledgements)
-- [:question: FAQ (OPTIONAL)](#faq)
 - [:memo: License](#license)
+
 # porfolio mobile version <a name="about-project"></a>
 **Portfolio** is a project that often includes images, videos, or interactive elements that demonstrate the creator's skills and expertise.
+
 ## :hammer_and_wrench: Built With <a name="built-with"></a>
 ### Tech Stack <a name="tech-stack"></a>
+
 <details>
   <summary>Client</summary>
   <ul>
@@ -36,27 +38,22 @@
     <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS">CSS</a></li>
   </ul>
 </details>
-<details>
-  <summary>Server</summary>
-  <ul>
-    <li>N/A</li>
-  </ul>
-</details>
-<details>
-<summary>Database</summary>
-  <ul>
-    <li>N/A</li>
-  </ul>
-</details>
+
 ### Key Features <a name="key-features"></a>
 - **Display colorfull text**
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ## :rocket: Live Demo <a name="live-demo"></a>
-- [Live Demo link](https://patrick-amponsah.github.io/Portfolio/)
+<!-- - [Live Demo link](https://patrick-amponsah.github.io/Portfolio/) -->
+will be added soon.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 :video_camera: Walkthrough  <a name="Walkthrough"></a>
-- [loom link]()
+<!-- - [loom link]() -->
+will be added soon.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ## :computer: Getting Started <a name="getting-started"></a>
 To get a local copy up and running, follow these steps.
 ### Prerequisites
@@ -85,6 +82,7 @@ N/A
 You can deploy this project using:
 Deploy this project on any websever
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ## :busts_in_silhouette: Authors <a name="authors"></a>
 :bust_in_silhouette: **Patrick**
 - GitHub: [@githubhandle](https://github.com/patrick-amponsah)
@@ -96,33 +94,24 @@ Deploy this project on any websever
 - Twitter: [@twitterhandle](https://twitter.com/noelnomgne)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/no%C3%ABl-nomgne-foka-063013231/)
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ## :telescope: Future Features <a name="future-features"></a>
 - [ ] **Add a hello animated illustration**
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ## :handshake: Contributing <a name="contributing"></a>
 Contributions, issues, and feature requests are welcome!
 Feel free to check the [issues page](../../issues/).
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ## :star:️ Show your support <a name="support"></a>
 If you like this project give me a star.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ## :pray: Acknowledgments <a name="acknowledgements"></a>
 I would like to thank every who continues supporting me.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ## :memo: License <a name="license"></a>
 This project is [MIT](./LICENSE) licensed.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-developer.mozilla.orgdeveloper.mozilla.org
-HTML: HyperText Markup Language | MDN
-HTML (HyperText Markup Language) is the most basic building block of the Web. It defines the meaning and structure of web content. Other technologies besides HTML are generally used to describe a web page's appearance/presentation (CSS) or functionality/behavior (JavaScript).
-https://developer.mozilla.org/en-US/docs/Web/HTML
-
-developer.mozilla.orgdeveloper.mozilla.org
-CSS: Cascading Style Sheets | MDN
-Cascading Style Sheets (CSS) is a stylesheet language used to describe the presentation of a document written in HTML or XML (including XML dialects such as SVG, MathML or XHTML). CSS describes how elements should be rendered on screen, on paper, in speech, or on other media.
-https://developer.mozilla.org/en-US/docs/Web/CSS
-
-GitHubGitHub
-patrick-amponsah - Overview
-patrick-amponsah has 20 repositories available. Follow their code on GitHub.
