@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
-/* 
+
+/*
 *,
 *::before,
 *::after {
@@ -40,6 +41,7 @@ h2 {
   font-style: normal;
   font-weight: 700;
   line-height: 3.25rem;
+
   /* 130% */
 }
 
@@ -353,7 +355,7 @@ img {
 }
 
 .skills-title:not(:first-of-type) {
-  border-bottom: 1px solid #DFE1E6;
+  border-bottom: 1px solid #dfe1e6;
 }
 
 .ability {
@@ -377,10 +379,12 @@ img {
   flex-direction: column;
   justify-content: space-between;
   background-color: #f7f7f9;
+
   /* margin-right: 15px; */
   padding: 10px 20px;
   border-radius: 8px;
   list-style: none;
+
   /* padding-left: 10px; */
   width: 100%;
   width: 7.775rem;
@@ -396,6 +400,7 @@ img {
   font-size: 20px;
   font-weight: 500;
   margin: 0;
+
   /* line-height: 24px; */
 }
 
@@ -749,7 +754,6 @@ img {
 }
 
 @media only screen and (min-width: 768px) {
-
   .nav-btn,
   .nav-xmark {
     display: none;
@@ -777,10 +781,10 @@ img {
 
   .about-me {
     /* display: grid; */
+
     /* grid-template-columns: 1fr 1fr; */
     display: flex;
     flex-direction: row;
-
   }
 
   .programming-lang {
@@ -813,7 +817,6 @@ img {
 }
 
 @media only screen and (min-width: 768px) {
-
   /* Works section */
   #project-container {
     display: flex;
