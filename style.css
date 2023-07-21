@@ -742,4 +742,15 @@ hr {
     flex-direction: column;
     align-items: center;
   }
+
+  .project-card {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    width: 80%;
+  }
+  
+  .project-detail-contener {
+    padding: 24px;
+  }
 }
