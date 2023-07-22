@@ -45,6 +45,7 @@ hr {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  transition: all 0.5s ease-out;
 }
 
 .nav-btn {
@@ -53,6 +54,12 @@ hr {
   font-size: 0.625rem;
   color: var(--primary);
   cursor: pointer;
+}
+
+.navbar:hover,
+.navbar:focus {
+  background-color: #7f8cff;;
+  color: #fff;
 }
 
 .logo a {
