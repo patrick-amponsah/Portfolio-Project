@@ -788,7 +788,6 @@ main {
 }
 
 @media only screen and (min-width: 768px) {
-
   .nav-btn,
   .nav-xmark {
     display: none;
@@ -852,7 +851,6 @@ main {
 }
 
 @media only screen and (min-width: 768px) {
-
   /* Works section */
   #project-container {
     margin: 0 auto;
