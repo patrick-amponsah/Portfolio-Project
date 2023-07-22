@@ -1,14 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 
-/*
-*,
-*::before,
-*::after {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-} */
-
 html {
   scroll-behavior: smooth;
   overflow-x: hidden;
@@ -41,8 +32,6 @@ h2 {
   font-style: normal;
   font-weight: 700;
   line-height: 3.25rem;
-
-  /* 130% */
 }
 
 hr {
@@ -413,13 +402,9 @@ main {
   flex-direction: column;
   justify-content: space-between;
   background-color: #f7f7f9;
-
-  /* margin-right: 15px; */
   padding: 10px 20px;
   border-radius: 8px;
   list-style: none;
-
-  /* padding-left: 10px; */
   width: 100%;
   width: 7.775rem;
   height: 7.5rem;
@@ -434,8 +419,6 @@ main {
   font-size: 20px;
   font-weight: 500;
   margin: 0;
-
-  /* line-height: 24px; */
 }
 
 .contact p {
@@ -527,8 +510,6 @@ main {
   left: 0;
   width: 100%;
   background-color: rgba(193, 199, 208, 0.5);
-
-  /* backdrop-filter: blur(3px); */
   margin: 0 auto;
 }
 
@@ -667,7 +648,6 @@ main {
   }
 }
 
-/* works section */
 #project-container {
   display: grid;
   grid-template-columns: auto;
@@ -814,17 +794,8 @@ main {
   }
 
   .about-me {
-    /* display: grid; */
-
-    /* grid-template-columns: 1fr 1fr; */
     display: flex;
     flex-direction: row;
-  }
-
-  .programming-lang {
-    /* display: flex;
-    flex-direction: column;
-    max-width: 80px; */
   }
 
   .project-subtitle {
@@ -851,7 +822,6 @@ main {
 }
 
 @media only screen and (min-width: 768px) {
-  /* Works section */
   #project-container {
     margin: 0 auto;
     width: 90%;
