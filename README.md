@@ -41,6 +41,7 @@
 
 ### Key Features <a name="key-features"></a>
 - **Display colorfull text**
+- **Responsive Layout**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
