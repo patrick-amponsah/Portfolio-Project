@@ -2,11 +2,10 @@
 
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 body {
-  margin: 0;
-  padding: 0;
   background-color: #e5e5e5;
   font-size: 16px;
 }
@@ -28,6 +27,13 @@ h2 {
   margin: 0;
 }
 
+.header-2 {
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 3.25rem;
+}
+
 hr {
   border: none;
   border-top: 1px solid #dfe1e6;
@@ -35,6 +41,40 @@ hr {
 
 :root {
   --primary: #6070ff;
+}
+
+img {
+  object-fit: cover;
+}
+
+button {
+  font-family: "Poppins", sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: center;
+  color: #396df2;
+  background-color: white;
+  border: 1px solid #6070ff;
+  padding: 12px;
+  border-radius: 8px;
+  margin-top: 16px;
+}
+
+button:hover {
+  background-color: #6070ff;
+  color: white;
+  box-shadow: 0.1px 8px 16px 0.1px #4053fc3d;
+}
+
+button:active {
+  background: #2230d2;
+  color: white;
+}
+
+button:disabled {
+  color: #c1c7d0;
+  background: #c1c7d0;
 }
 
 .navbar {
@@ -92,6 +132,10 @@ hr {
   transition: 0.2s;
 }
 
+main {
+  background: #f7f7f9;
+}
+
 .info {
   padding: 15vh 8%;
   background-image: url("images/header-shapes\ mobile.svg");
@@ -127,7 +171,7 @@ hr {
   font-size: 16px;
   line-height: 24px;
   color: #7f8cff;
-  padding-bottom: 50px;
+  margin: 0;
 }
 
 .contact-list {
@@ -287,9 +331,11 @@ hr {
   line-height: 52px;
   font-weight: 700;
   color: #172b4d;
+  margin: 0;
 }
 
 .about-text {
+  margin: 0;
   font-size: 16px;
   line-height: 24px;
   font-weight: 400;
@@ -299,6 +345,21 @@ hr {
   background-color: white;
   padding: 10% 8%;
   border-radius: 0 80px 0 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2.25rem;
+}
+
+.about-me__left {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  max-width: 28rem;
+}
+
+.skills {
+  translate: 0 -1rem;
 }
 
 .skills ul {
@@ -309,8 +370,15 @@ hr {
 
 .skills-title {
   display: flex;
-  flex-direction: row;
+  align-items: center;
   justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  min-height: 4.5rem;
+}
+
+.skills-title:not(:first-of-type) {
+  border-bottom: 1px solid #dfe1e6;
 }
 
 .ability {
@@ -323,26 +391,34 @@ hr {
   font-size: 10px;
 }
 
+.languages {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
 .programming-lang {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  justify-content: space-between;
   background-color: #f7f7f9;
-  margin-right: 15px;
   padding: 10px 20px;
   border-radius: 8px;
   list-style: none;
-  padding-left: 10px;
-  width: 90%;
+  width: 100%;
+  width: 7.775rem;
+  height: 7.5rem;
 }
 
 .programming-lang img {
-  margin-right: 18px;
+  width: 100%;
+  max-width: 3rem;
 }
 
 .skills-title p {
   font-size: 20px;
   font-weight: 500;
-  line-height: 24px;
+  margin: 0;
 }
 
 .contact p {
@@ -365,7 +441,7 @@ hr {
   background-color: var(--primary);
   font-family: "Poppins", sans-serif;
   color: white;
-  padding: 1%  8%;
+  padding: 1% 8%;
   border-radius: 80px 0 0 0;
   background-image: url(images/contact-bg-img.svg);
   background-position: right;
@@ -434,8 +510,6 @@ hr {
   left: 0;
   width: 100%;
   background-color: rgba(193, 199, 208, 0.5);
-
-  /* backdrop-filter: blur(3px); */
   margin: 0 auto;
 }
 
@@ -568,9 +642,12 @@ hr {
   .second-list-tech {
     display: none;
   }
+
+  .skills {
+    translate: 0;
+  }
 }
 
-/* works section */
 #project-container {
   display: grid;
   grid-template-columns: auto;
@@ -647,11 +724,27 @@ hr {
   margin-top: 30px;
 }
 
+.social-media-link {
+  display: flex;
+  gap: 1.19rem;
+  margin: 0;
+  padding-top: 0.5rem;
+}
+
 #social-links img {
   width: 20px;
   height: 20px;
-  padding: 10px 15px 1px 1px;
   cursor: pointer;
+}
+
+.get-resume {
+  width: 100%;
+  max-width: 10.625rem;
+  font-size: 1.0625rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5rem;
+  letter-spacing: 0.03188rem;
 }
 
 .tools {
@@ -690,7 +783,6 @@ hr {
 
   .languages {
     display: flex;
-    margin-left: 10px;
   }
 
   .projects:nth-child(even) .project-img {
@@ -702,14 +794,8 @@ hr {
   }
 
   .about-me {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-  }
-
-  .programming-lang {
     display: flex;
-    flex-direction: column;
-    max-width: 80px;
+    flex-direction: row;
   }
 
   .project-subtitle {
@@ -736,18 +822,20 @@ hr {
 }
 
 @media only screen and (min-width: 768px) {
-  /* Works section */
   #project-container {
+    margin: 0 auto;
+    width: 90%;
     display: flex;
     flex-direction: column;
     align-items: center;
+    background: #f7f7f9;
   }
 
   .project-card {
     display: flex;
     flex-direction: row;
     gap: 24px;
-    width: 80%;
+    width: 100%;
   }
 
   .project-detail-contener {
