@@ -46,7 +46,7 @@
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## :rocket: Live Demo <a name="live-demo"></a>
-<!-- - [Live Demo link](https://patrick-amponsah.github.io/Portfolio/) -->
+[Live Demo link](https://patrick-amponsah.github.io/Portfolio-Project/)
 will be added soon.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
