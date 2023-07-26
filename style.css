@@ -116,7 +116,7 @@ hr {
 
 .info p {
   font-size: 16px;
-  font-weight: 400px;
+  font-weight: 400;
   line-height: 24px;
   color: #344563;
 }
@@ -214,14 +214,14 @@ hr {
 
 .project-description p {
   font-size: 15px;
-  font-weight: 400px;
+  font-weight: 400;
   line-height: 24px;
   color: #344563;
 }
 
 .review-info-project {
   font-size: 15px;
-  font-weight: 400px;
+  font-weight: 400;
   line-height: 24px;
   color: #344563;
 }
@@ -716,7 +716,7 @@ hr {
 
   .info {
     background-image: url(images/Header\ bg.svg);
-    padding: 20vh auto;
+    padding: 20vh;
   }
 
   .info p {
@@ -763,7 +763,7 @@ hr {
     font-size: 40px;
     font-weight: 700;
     line-height: 52px;
-    color: 091e42;
+    color: #091e42;
   }
 
   .project-card h4 {
