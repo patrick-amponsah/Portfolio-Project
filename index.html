@@ -2,214 +2,213 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Patrick's Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="https://kit.fontawesome.com/fc7e7ce012.js" crossorigin="anonymous"></script>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="css/style.css" />
 </head>
 
 <body>
-    <header>
-        <nav class="navbar">
-            <div class="logo primary-font">
-                <a href="">Patrick</a>
-            </div>
-            <div class="nav-menue-btn">
-                <button class="nav-btn"><i class="fa-solid fa-bars fa-2x"></i></button>
-            </div>
-            <ul class="menue-btn primary-font">
-                <li><button class="nav-xmark"><i class="fa-solid fa-xmark fa-2x"></i></button></li>
-                <li><a href="index.html">Portfolio</a></li>
-                <li><a href="#about-me">About</a></li>
-                <li><a href="#contact-section">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <section>
-            <div class="info primary-font">
-                <div class="title">
-                    <h1>I’m Patrick<span><br></span> Glad to see you!</h1>
-                    <p>I’m a software developer! I can help you build a product , feature or website Look through some
-                        of my work and experience! If you like what you see and have a project you need coded, don’t
-                        hestiate to contact me.</p>
-                    <a class="connect-btn" href="">LET’S CONNECT</a>
-                    <ul class="contact-list">
-                        <li><a href="https://twitter.com"><img src="icons/twitter.svg" alt="twitter icon"></a></li>
-                        <li><a href="https://www.linkedin.com/in/patrick-amponsah-67483a270/"><img
-                                    src="icons/linked.svg" alt="linkedin icon"></a></li>
-                        <li><a href=""><img src="icons/Vector1.svg" alt="social media icon"></a></li>
-                        <li><a href="https://github.com/patrick-amponsah"><img src="icons/github.svg"
-                                    alt="github icon"></a></li>
-                        <li><a href=""><img src="icons/Vector2.svg" alt="social media icon"></a></li>
-                    </ul>
-                </div>
-            </div>
+  <header>
+    <nav>
+      <a id="logo" href="#">My Logo</a>
+      <img id="menu-icon" src="images/Enabled.png" />
+      <section id="menu">
+
+        <a href="#">Portfolio</a>
+        <a href="#">About</a>
+        <a href="#">Contacts</a>
+      </section>
+      <div id="overlay">
+        <a id="mob-closebtn" src="icones/cloth-btn.png" onclick="closeNav()">&times;</a>
+        <div class="overlay-menu">
+          <a class="mobile-menu" href="#headline">Portfolio</a>
+          <a class="mobile-menu" href="#about-me-section">About</a>
+          <a class="mobile-menu" href="#contact-form">Contacts</a>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <section id="headline">
+    <div id="center-content-contenter">
+      <div class="center-content">
+        <h1>I'm Patrick, Glad to see you!</h1>
+        <p>
+            The software engineer portfolio highlights expertise in web development using HTML, CSS, JavaScript, React, Redux, Ruby, and Ruby on Rails. It showcases interactive and responsive front-end applications integrated with back-end APIs. The portfolio reflects problem-solving skills, commitment to continuous learning through open-source contributions and coding challenges, and a passion for creating clean and maintainable code for high-quality web solutions.
+        </p>
+        <span> Let's Connect</span>
+        <section id="social-links">
+          <a href="#"> <img src="icones/twitter.png" alt="" /></a>
+          <a href="#"> <img src="icones/linkedin.png" alt="" /></a>
+          <a href="#"> <img src="icones/M.png" alt="" /></a>
+          <a href="#"> <img src="icones/github.png" alt="" /></a>
+          <a href="#"> <img src="icones/Vector.png" alt="" /></a>
+
+
         </section>
-
-        <section id="project-container">
-            <div class="project-card">
-                <img src="images/SnapshootPortfolio.jpg" alt="project image" />
-                <div class="project-detail-contener">
-                    <h2>Tonic</h2>
-                    <h4>
-                        <span>CANOPY</span> &nbsp; ● &nbsp; Back End Dev &nbsp; ● &nbsp;
-                        2015
-                    </h4>
-                    <p>
-                        A daily selection of privately personalized reads; no accounts or sign-ups required.
-                    </p>
-                    <ul class="tools">
-                        <li>HTML</li>
-                        <li>CSS</li>
-                        <li>JavaScript</li>
-                    </ul> <button class="see-project-btn">See Project</button>
-                </div>
-            </div>
-            <div class="project-card">
-
-                <div class="project-detail-contener">
-                    <h2>Multi-Post Stories</h2>
-                    <h4>
-                        <span>Facebook</span> &nbsp; ● &nbsp; Full Stack Dev &nbsp; ● &nbsp;
-                        2015
-                    </h4>
-                    <p>
-                        Experimental content creation feature that allows users to add to an existing story over the
-                        course of a day without spamming their friends.
-                    </p>
-                    <ul class="tools">
-                        <li>HTML</li>
-                        <li>Ruby on rails</li>
-                        <li>CSS</li>
-                        <li>JavaScript</li>
-                    </ul> <button class="see-project-btn">See Project</button>
-                </div>
-                <img src="images/SnapshootPortfolio.jpg" alt="project image" />
-
-
-            </div>
-            <div class="project-card">
-                <img src="images/project-1.png" alt="project image" />
-                <div class="project-detail-contener">
-                    <h2>Facebook 360</h2>
-                    <h4>
-                        <span>Facebook</span> &nbsp; ● &nbsp; Full Stack Dev &nbsp; ● &nbsp;
-                        2015
-                    </h4>
-                    <p>
-                        Exploring the future of media in Facebook's first Virtual Reality app; a place to discover and
-                        enjoy 360 photos and videos on Gear VR.
-                    </p>
-                    <ul class="tools">
-                        <li>HTML</li>
-                        <li>Ruby on rails</li>
-                        <li>CSS</li>
-                        <li>JavaScript</li>
-                    </ul> <button class="see-project-btn">See Project</button>
-                </div>
+      </div>
+    </div>
+  </section>
+  <section id="project-container" class="projects-desktop">
+    <div class="project-card">
+      <img src="images/project-image-1.png" alt="project image" />
+      <div class="project-detail-contener">
+        <h2>Tonic</h2>
+        <h4>
+          <span>CANOPY</span> &nbsp; ● &nbsp; Back End Dev &nbsp; ● &nbsp;
+          2015
+        </h4>
+        <p>
+          A daily selection of privately personalized reads; no accounts or sign-ups required.
+        </p>
+        <ul class="tools">
+          <li>HTML</li>
+          <li>Ruby on rails</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+        </ul> <button class="see-project-btn">See Project</button>
+      </div>
+    </div>
+    <div class="project-card reverse">
+      <img src="images/project-image-2.png" alt="project image" />
+      <div class="project-detail-contener">
+        <h2>Multi-Post Stories</h2>
+        <h4>
+          <span>FACEBOOK</span> &nbsp; ● &nbsp; Full Stack Dev &nbsp; ● &nbsp;
+          2015
+        </h4>
+        <p>
+          Experimental content creation feature that allows users to add to an existing story over the course of a day
+          without spamming their friends.
+        </p>
+        <ul class="tools">
+          <li>HTML</li>
+          <li>Ruby on rails</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+        </ul> <button class="see-project-btn">See Project</button>
+      </div>
 
 
 
-            </div>
-            <div class="project-card">
+    </div>
+    <div class="project-card">
+      <img src="images/project-image-3.png" alt="project image" />
+      <div class="project-detail-contener">
+        <h2>Facebook 360</h2>
+        <h4>
+          <span>FACEBOOK</span> &nbsp; ● &nbsp; Full Stack Dev &nbsp; ● &nbsp;
+          2015
+        </h4>
+        <p>
+          Exploring the future of media in Facebook's first Virtual Reality app; a place to discover and enjoy 360
+          photos and videos on Gear VR.
+        </p>
+        <ul class="tools">
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+        </ul> <button class="see-project-btn">See Project</button>
+      </div>
 
-                <div class="project-detail-contener">
-                    <h2>Uber Navigation</h2>
-                    <h4>
-                        <span>Uber</span> &nbsp; ● &nbsp; Lead Developer &nbsp; ● &nbsp;
-                        2018
-                    </h4>
-                    <p>
-                        A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive
-                        computer: your car.
-                    </p>
-                    <ul class="tools">
-                        <li>HTML</li>
-                        <li>Ruby on rails</li>
-                        <li>CSS</li>
-                        <li>JavaScript</li>
-                    </ul> <button class="see-project-btn">See Project</button>
-                </div>
 
-                <img src="images/SnapshootPortfolio.jpg" alt="project image" />
 
-            </div>
+    </div>
+    <div class="project-card reverse">
+      <img src="images/project-image-4.png" alt="project image" />
+      <div class="project-detail-contener">
+        <h2>Uber Navigation</h2>
+        <h4>
+          <span>Uber</span> &nbsp; ● &nbsp; Lead Developer &nbsp; ● &nbsp;
+          2018
+        </h4>
+        <p>
+          A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer:
+          your car.
+        </p>
+        <ul class="tools">
+          <li>HTML</li>
+          <li>Ruby on rails</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+        </ul> <button class="see-project-btn">See Project</button>
+      </div>
+
+
+
+    </div>
+  </section>
+  <section id="about-me-section">
+    <div id="about-me-contener">
+      <div id="about-me-top">
+        <h2>About Myself</h2>
+        <p>
+          Hello I’m a software developer! I can help you build a product , feature or website. Look through some of my
+          work and experience! If you like what you see and have a project you need coded, don’t hesitate to contact me.
+        </p><span>Let's Connect</span>
+        <section id="social-links">
+          <a href="#"> <img src="icones/twitter.png" alt="" /></a>
+          <a href="#"> <img src="icones/linkedin.png" alt="" /></a>
+          <a href="#"> <img src="icones/M.png" alt="" /></a>
+          <a href="#"> <img src="icones/github.png" alt="" /></a>
+          <a href="#"> <img src="icones/Vector.png" alt="" /></a>
         </section>
-        <section id="about-me" class="primary-font about-me">
-            <div class="about-me__left">
-                <h2 class="about-title header-2">About Myself</h2>
-                <p class="about-text">Hello I’m a software developer! I can help you build a product , feature or
-                    website Look through some of my work and experience! If you like what you see and have a project you
-                    need coded, don’t hestiate to contact me.</p>
-                <a class="connect-btn" href="">LET’S CONNECT</a>
-                <div class="social-media-link">
-                    <a href="https://twitter.com"><img src="icons/twitter.svg" alt="twitter icon"></a>
-                    <a href="https://www.linkedin.com/in/patrick-amponsah-67483a270/"><img src="icons/linked.svg"
-                            alt="linkedin icon"></a>
-                    <a href=""><img src="icons/Vector1.svg" alt="social media icon"></a>
-                    <a href="https://github.com/patrick-amponsah"><img src="icons/github.svg" alt="github icon"></a>
-                    <a href=""><img src="icons/Vector2.svg" alt="social media icon"></a>
-                </div>
-                <button class="regular-btn get-resume">Get my resume</button>
-            </div>
-            <div class="skills">
-                <div class="skills-title">
-                    <p>Languages</p>
-                    <button class="preview-xmark"><i class="fa-solid fa-angle-down fa-2x"></i></button>
-                </div>
-                <ul class="languages">
-                    <li class="programming-lang">
-                        <img src="images/javascrip.svg" alt="javaScript logo image">
-                        <p>JavaScript</p>
-                    </li>
-                    <li class="programming-lang">
-                        <img src="images/html.svg" alt="html logo image">
-                        <p>HTML</p>
-                    </li>
-                    <li class="programming-lang">
-                        <img src="images/css.svg" alt="css logo image">
-                        <p>CSS</p>
-                    </li>
-                </ul>
-                <div class="skills-title">
-                    <p>Frameworks</p>
-                    <button><i class="fa-solid fa-angle-right fa-2x"></i></button>
-                </div>
-                <div class="skills-title">
-                    <p>Skills</p>
-                    <button><i class="fa-solid fa-angle-right fa-2x"></i></button>
-                </div>
-            </div>
-        </section>
-        <section id="contact-section" class="contact-section">
-            <div class="contact">
-                <div class="contact-info">
-                    <div>
-                        <h2>Contact me</h2>
-                        <p>if you have an application you are interested in developing, a feature you that you need
-                            built or a project that needs coding. I'd love to help with it!</p>
-                    </div>
-                    <form class="contact-form" action="https://formspree.io/f/mzbqjzeq" method="post">
-                        <input class="form-style" type="text" name="name" id="full-name" maxlength="30"
-                            placeholder="Enter your name" required>
-                        <input class="form-style" type="email" name="email" id="email"
-                            placeholder="Enter your email address" required>
-                        <textarea class="form-style" name="message" id="message" maxlength="500"
-                            placeholder="Write your message here" required></textarea>
-                        <input class="regular-btn get-in-touch" type="submit" name="submit" id="submit"
-                            value="Get In Touch">
+        <button class="see-project-btn">Get my resume</button>
+      </div>
 
-                    </form>
-                </div>
-            </div>
-        </section>
-        </section>
-    </main>
-    <script src="app.js"></script>
+      <div id="about-me-bottom">
 
+        <div class="skill-list">
+          <span class="toggle"><span class="text">Languages</span><span> <img class="skills-mob"
+                src="icones/down.png" />
+              <img class="skills-desktop narro-down" src="icones/down.png" /></span>
+          </span>
+          <div class="languages-list">
+            <div>
+              <span><img src="icones/js.png" /></span>
+              <span class="text">JavaScript</span>
+            </div>
+            <div>
+              <span><img src="icones/html5.png" /></span>
+              <span class="text">HTML</span>
+            </div>
+            <div>
+              <span><img src="icones/css.png" /></span>
+              <span class="text">CSS</span>
+            </div>
+          </div>
+          <span class="toggle"><span class="text">Frameworks</span><span>
+              <img class="skills-mob" src="icones/down.png" />
+              <img class="skills-desktop narro-right" src="icones/narrow to the right.png" />
+            </span></span>
+          <span class="toggle"><span class="text">Skills</span><span> <img class="skills-mob" src="icones/down.png" />
+              <img class="skills-desktop narro-right" src="icones/narrow to the right.png" /></span></span>
+
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <section id="contact-form">
+    <div id="contact-form-container">
+      <h2>Contact me</h2>
+      <p>
+        If you have an application you are interested in developing, a feature
+        that you need built or a project that needs coding. I’d love to help
+        with it!
+      </p>
+      <form action="https://formspree.io/f/xyyqzzjg" method="post">
+        <input type="text" id="name" name="user_name" placeholder="Enter your name" maxlength="30" required />
+        <input type="email" id="email" name="user_email" placeholder="Enter your email" required />
+        <textarea name="user_message" placeholder="Write your message here" maxlength="500" required></textarea>
+        <button type="submit" class="content-submit-btn">Get in touch</button>
+      </form>
+    </div>
+
+  </section>
+  <script src="/js/app.js"></script>
 </body>
 
 </html>
