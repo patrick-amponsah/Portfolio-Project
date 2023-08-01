@@ -68,7 +68,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo link](https://Patrick-amponsah.github.io/Portfolio/)
+- [Live Demo link](https://Patrick-amponsah.io/Portfolio/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 📹 Walkthrough  <a name="Walkthrough"></a>
@@ -139,11 +139,11 @@ Deploy this project on any websever
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 **NPatrick **
+👤 **Abel **
 
 - GitHub: [@githubhandle](https://github.com/Patrick-amponsah)
 - Twitter: [@twitterhandle](https://twitter.com/Patrick-amponsah)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/no%C3%ABl-Patrick-amponsahPatrick-amponsah/)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/-Patrick-amponsah/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
