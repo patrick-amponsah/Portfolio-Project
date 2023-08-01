@@ -5,12 +5,15 @@ const mobileMenu = document.getElementById('mobile-menu');
 
 showNav.addEventListener('click', () => {
   mobileMenu.classList.toggle('mobile-menu--show');
+  document.body.style.overflow = "hidden";
 });
 
 hideNav.addEventListener('click', () => {
   mobileMenu.classList.toggle('mobile-menu--show');
+  document.body.style.overflow = "scroll";
 });
 
 mobileMenuLinks.addEventListener('click', () => {
   mobileMenu.classList.toggle('mobile-menu--show');
+  document.body.style.overflow = "scroll";
 });

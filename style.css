@@ -74,6 +74,8 @@ header {
 }
 
 .mobile-menu--show {
+  overflow-y: hidden;
+  position:fixed;
   display: flex;
   flex-direction: column;
   position: absolute;
