@@ -80,8 +80,8 @@ header {
   top: 0;
   left: 0;
   padding: 1em 0.75em;
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
+  height: 100%;
   color: #fff;
   background: rgba(96, 112, 255, 0.9);
   font-family: "Poppins", sans-serif;
@@ -89,6 +89,7 @@ header {
   font-size: 2rem;
   line-height: 44px;
   backdrop-filter: blur(4px);
+  z-index: 3;
 }
 
 .mobile-menu--show > ul > li {
