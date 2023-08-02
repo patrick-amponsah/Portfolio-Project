@@ -34,7 +34,7 @@ contactForm.addEventListener('submit', (event) => {
   } else if (!isValidEmail(email)) {
     showError(emailInput, 'Please enter a valid email address in lowercase');
   } else if (message === '') {
-    showError(messageInput, 'Please enter your message');
+    showError(messageInput, 'Kindly input your message in the provided text box');
   } else {
     contactForm.submit();
     contactForm.reset();
