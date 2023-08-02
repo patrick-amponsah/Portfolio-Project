@@ -13,7 +13,7 @@ const projects = [
     featureImg: './assets/card3.png',
     projectName: 'Multi-Post Stories',
     projectDescription:
-      'Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.',
+      'Introducing an experimental content creation feature that enables users to contribute to an existing story throughout the day, while avoiding excessive notifications for their friends.',
     projectLang: ['HTML', 'CSS', 'Ruby', 'JavaScript'],
     projectDetails: {
       orgnization: 'FACEBOOK',
