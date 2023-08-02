@@ -32,7 +32,7 @@ contactForm.addEventListener('submit', (event) => {
   } else if (!isValidName(name)) {
     showError(nameInput, 'Please enter a valid name');
   } else if (!isValidEmail(email)) {
-    showError(emailInput, 'Please enter a valid email address in lowercase');
+    showError(emailInput, 'Please ensure that the email address you enter is valid and in lowercase format');
   } else if (message === '') {
     showError(messageInput, 'Please enter your message');
   } else {
