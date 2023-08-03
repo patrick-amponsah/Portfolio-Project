@@ -1,30 +1,19 @@
-export default function valid() {
-  const contactForm = document.querySelector('.contact-me-form');
-  const validText = document.querySelector('#valid-text');
-  function showError(input, errorMessage) {
-    validText.innerText = errorMessage;
-    validText.style.color = 'red';
-    input.classList.add('error-input');
-  }
+const formButton = document.querySelector('#form-button');
 
-  function isValidName(name) {
-    const nameRegex = /^[a-zA-Z\s]*$/;
-    return nameRegex.test(name);
-  }
-
-  function isValidEmail(email) {
-    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-    return emailRegex.test(email) && email === email.toLowerCase();
-  }
-
-  contactForm.addEventListener('submit', (event) => {
-    event.preventDefault();
-
-    const nameInput = contactForm.querySelector('input[name="name"]');
-    const emailInput = contactForm.querySelector('input[name="email"]');
-    const messageInput = contactForm.querySelector('textarea[name="message"]');
-
-    const name = nameInput.value.trim();
-    const email = emailInput.value.trim();
-    const message = messageInput.value.trim();
-
+function validate() {
+  const text = document.getElementById('email').value;
+  const validator = /^([a-z\d-]+)@([a-z\d-]+)\.([a-z]{2,8})(\.[a-z]{2,8})?$/;
+  document.forms[0].onsubmit = function email(e) {
+    if (!(validator.test(text))) {
+      document.getElementById('error-message').innerHTML = 'Please use lowercase to enter valid email address!';
+      document.getElementById('error-message').style.visibility = 'visible';
+      document.getElementById('error-message').style.color = 'white';
+      document.getElementById('error-message').style.background = 'red';
+      document.getElementById('error-message').style.textAlign = 'center';
+      e.preventDefault();
+    }
+  };
+}
+formButton.addEventListener('click', () => {
+  validate();
+});
