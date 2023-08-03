@@ -1,43 +1,5 @@
 const projects = [
   {
-    featureImg: './assets/card1.png',
-    projectName: 'Tonic',
-    projectDescription:
-      'Every day, users can access a collection of personalized reads that are private, without the need for any accounts or sign-ups.',
-    projectLang: ['HTML', 'CSS', 'JavaScript'],
-    projectDetails: { orgnization: 'CANOPY', type: 'Back END Dev', year: 2015 },
-    seeLive: 'https://github.com/fatima-najafi/Portfolio',
-    seeSource: 'https://github.com/fatima-najafi/Portfolio.git',
-  },
-  {
-    featureImg: './assets/card3.png',
-    projectName: 'Multi-Post Stories',
-    projectDescription:
-      'Introducing an experimental content creation feature that enables users to contribute to an existing story throughout the day, while avoiding excessive notifications for their friends.',
-    projectLang: ['HTML', 'CSS', 'Ruby', 'JavaScript'],
-    projectDetails: {
-      orgnization: 'FACEBOOK',
-      type: 'Full Stack Dev',
-      year: 2016,
-    },
-    seeLive: 'https://github.com/fatima-najafi/Portfolio',
-    seeSource: 'https://github.com/fatima-najafi/Portfolio.git',
-  },
-  {
-    featureImg: './assets/card2.png',
-    projectName: 'Facebook 360',
-    projectDescription:
-      'Exploring the future of media in Facebooks first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.',
-    projectLang: ['HTML', 'CSS', 'JavaScript', 'Ruby'],
-    projectDetails: {
-      orgnization: 'FACEBOOK',
-      type: 'Full Stack Dev',
-      year: 2017,
-    },
-    seeLive: 'https://github.com/fatima-najafi/Portfolio',
-    seeSource: 'https://github.com/fatima-najafi/Portfolio.git',
-  },
-  {
     featureImg: './assets/card.png',
     projectName: 'Uber Navigation',
     projectDescription:

@@ -27,18 +27,4 @@ contactForm.addEventListener('submit', (event) => {
   const email = emailInput.value.trim();
   const message = messageInput.value.trim();
 
-  if (name === '') {
-    showError(nameInput, 'Please enter your name');
-  } else if (!isValidName(name)) {
-    showError(nameInput, 'Please enter a valid name');
-  } else if (!isValidEmail(email)) {
-    showError(emailInput, 'Please enter a valid email address in lowercase');
-  } else if (message === '') {
-    showError(messageInput, 'Kindly input your message in the provided text box');
-  } else {
-    contactForm.submit();
-    contactForm.reset();
-    validText.innerText = 'Form submitted successfully!';
-    validText.style.color = 'green';
-  }
-});
+ 
