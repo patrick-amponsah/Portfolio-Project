@@ -1,4 +1,4 @@
-import localstorage from './LocalStorage.js'
+import localstorage from './LocalStorage.js';
 import popup from './popup.js';
 import valid from './validation.js';
 
@@ -22,6 +22,6 @@ mobileMenuLinks.addEventListener('click', () => {
   document.body.style.overflow = 'scroll';
 });
 
-localstorage()
-popup()
-valid()
+localstorage();
+popup();
+valid();

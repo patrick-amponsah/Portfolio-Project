@@ -1,17 +1,17 @@
 export default function localstorage() {
   const formString = document.querySelector('.contact-me-form-button');
-  if (formString) { 
-  formString.addEventListener('click', () => {
-    const information = {
-      name: document.getElementById('name').value,
-      email: document.getElementById('email').value,
-      message: document.getElementById('message').value
-    };
-  
-    console.log(information)
-    localStorage.setItem('formString', JSON.stringify(information));
-  });
-}
+  if (formString) {
+    formString.addEventListener('click', () => {
+      const information = {
+        name: document.getElementById('name').value,
+        email: document.getElementById('email').value,
+        message: document.getElementById('message').value,
+      };
+
+      console.log(information);
+      localStorage.setItem('formString', JSON.stringify(information));
+    });
+  }
   const formObj = JSON.parse(localStorage.getItem('formString'));
   document.getElementById('name').value = formObj.name;
   document.getElementById('email').value = formObj.email;
