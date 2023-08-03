@@ -1,3 +1,4 @@
+  export default function valid() {
 const contactForm = document.querySelector('.contact-me-form');
 const validText = document.querySelector('#valid-text');
 function showError(input, errorMessage) {
@@ -42,3 +43,4 @@ contactForm.addEventListener('submit', (event) => {
     validText.style.color = 'green';
   }
 });
+  }

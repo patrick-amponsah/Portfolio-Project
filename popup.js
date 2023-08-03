@@ -1,3 +1,4 @@
+export default function popup() {
 const projects = [
   {
     featureImg: './assets/card1.png',
@@ -184,3 +185,4 @@ projectClose4.addEventListener('click', () => {
   detailCard4.classList.toggle('detail-card--show');
   body.classList.remove('blur');
 });
+}
