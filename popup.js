@@ -1,47 +1,9 @@
-export default function popup() {
-  const projects = [
-    {
-      featureImg: './assets/card1.png',
-      projectName: 'Tonic',
-      projectDescription:
-      'Every day, users can access a collection of personalized reads that are private, without the need for any accounts or sign-ups.',
-      projectLang: ['HTML', 'CSS', 'JavaScript'],
-      projectDetails: { orgnization: 'CANOPY', type: 'Back END Dev', year: 2015 },
-      seeLive: 'https://github.com/fatima-najafi/Portfolio',
-      seeSource: 'https://github.com/fatima-najafi/Portfolio.git',
-    },
-    {
-      featureImg: './assets/card3.png',
-      projectName: 'Multi-Post Stories',
-      projectDescription:
-      'Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.',
-      projectLang: ['HTML', 'CSS', 'Ruby', 'JavaScript'],
-      projectDetails: {
-        orgnization: 'FACEBOOK',
-        type: 'Full Stack Dev',
-        year: 2016,
-      },
-      seeLive: 'https://github.com/fatima-najafi/Portfolio',
-      seeSource: 'https://github.com/fatima-najafi/Portfolio.git',
-    },
-    {
-      featureImg: './assets/card2.png',
-      projectName: 'Facebook 360',
-      projectDescription:
-      'Exploring the future of media in Facebooks first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.',
-      projectLang: ['HTML', 'CSS', 'JavaScript', 'Ruby'],
-      projectDetails: {
-        orgnization: 'FACEBOOK',
-        type: 'Full Stack Dev',
-        year: 2017,
-      },
-      seeLive: 'https://github.com/fatima-najafi/Portfolio',
-      seeSource: 'https://github.com/fatima-najafi/Portfolio.git',
-    },
-    {
-      featureImg: './assets/card.png',
-      projectName: 'Uber Navigation',
-      projectDescription:
+
+const projects = [
+  {
+    featureImg: './assets/card.png',
+    projectName: 'Uber Navigation',
+    projectDescription:
       'A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.',
       projectLang: ['HTML', 'Ruby', 'CSS', 'JavaScript'],
       projectDetails: { orgnization: 'UBER', type: 'Front End Dev', year: 2017 },

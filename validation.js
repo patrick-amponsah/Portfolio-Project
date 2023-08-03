@@ -28,19 +28,3 @@ export default function valid() {
     const email = emailInput.value.trim();
     const message = messageInput.value.trim();
 
-    if (name === '') {
-      showError(nameInput, 'Please enter your name');
-    } else if (!isValidName(name)) {
-      showError(nameInput, 'Please enter a valid name');
-    } else if (!isValidEmail(email)) {
-      showError(emailInput, 'Please ensure that the email address you enter is valid and in lowercase format');
-    } else if (message === '') {
-      showError(messageInput, 'Please enter your message');
-    } else {
-      contactForm.submit();
-      contactForm.reset();
-      validText.innerText = 'Form submitted successfully!';
-      validText.style.color = 'green';
-    }
-  });
-}
