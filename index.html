@@ -176,12 +176,16 @@
                     class="contact-me-form">
                     <div id="valid-text"></div>
                     <input class="contact-me-form-text-input" required
-                        maxlength="30" name="name" type="text"
+                        maxlength="30" name="name" type="text" id="name"
                         placeholder="Your good name">
                     <input class="contact-me-form-text-input" required
                         name="email" type="email" pattern="[^ @]*@[^ @]*"
-                        placeholder="Your email address">
-                    <textarea class="contact-me-form-text-input" required
+                        placeholder="Your email address"
+                        id="email"
+                        >
+                    <textarea
+                       id="message" 
+                      class="contact-me-form-text-input" required
                         maxlength="500" name="message" cols="30" rows="9"
                         placeholder="Write your message here"></textarea>
                     <button class="contact-me-form-button" type="submit">Get In
