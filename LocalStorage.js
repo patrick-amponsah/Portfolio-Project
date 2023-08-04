@@ -1,6 +1,6 @@
 const formString = document.querySelector('.contact-me-form-button');
 if (formString) {
-  formString.addEventListener('click', (e) => {
+  formString.addEventListener('click', () => {
     const information = {
       name: document.getElementById('name').value,
       email: document.getElementById('email').value,
