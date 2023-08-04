@@ -1,3 +1,6 @@
+import popup from './popup.js';
+import valid from './validation.js';
+
 const showNav = document.getElementById('show-nav-btn');
 const hideNav = document.getElementById('hide-nav-btn');
 const mobileMenuLinks = document.getElementById('mobile-menu-links');
@@ -17,3 +20,6 @@ mobileMenuLinks.addEventListener('click', () => {
   mobileMenu.classList.toggle('mobile-menu--show');
   document.body.style.overflow = 'scroll';
 });
+
+popup();
+valid();

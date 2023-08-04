@@ -32,7 +32,7 @@
 
 # porfolio mobile version <a name="about-project"></a>
 
-**Portfolio** is a project that often includes images, videos, or interactive elements that demonstrate the creator's skills and expertise.
+**Portfolio** A project typically showcases the creator's skills and expertise using images, videos, and interactive elements for a visually engaging demonstration.
 
 ## 🛠 Built With <a name="built-with"></a>
 

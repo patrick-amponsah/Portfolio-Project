@@ -176,12 +176,16 @@
                     class="contact-me-form">
                     <div id="valid-text"></div>
                     <input class="contact-me-form-text-input" required
-                        maxlength="30" name="name" type="text"
-                        placeholder="Your good name">
+                        maxlength="30" name="name" type="text" id="name"
+                        placeholder="Your name">
                     <input class="contact-me-form-text-input" required
                         name="email" type="email" pattern="[^ @]*@[^ @]*"
-                        placeholder="Your email address">
-                    <textarea class="contact-me-form-text-input" required
+                        placeholder="Your email address"
+                        id="email"
+                        >
+                    <textarea
+                       id="message" 
+                      class="contact-me-form-text-input" required
                         maxlength="500" name="message" cols="30" rows="9"
                         placeholder="Write your message here"></textarea>
                     <button class="contact-me-form-button" type="submit">Get In
@@ -191,10 +195,11 @@
         </section>
         <!-- Contact Me Section Ends Here -->
 
-        <script src="validation.js"></script>
-        <script src="app.js"></script>
-        <script src="popup.js"></script>
+        <!-- <script src="validation.js"></script>
+        <script src="popup.js"></script> -->
 
+        <script src="app.js" type="module"></script>
+        <script src="LocalStorage.js"></script>
     </body>
 
 </html>
