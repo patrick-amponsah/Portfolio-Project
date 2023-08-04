@@ -1,5 +1,14 @@
 const formString = document.querySelector('.contact-me-form-button');
 
+function saveFormToLocalStorage() {
+  const information = {
+    name: document.getElementById('name').value,
+    email: document.getElementById('email').value,
+    message: document.getElementById('message').value,
+  };
+  localStorage.setItem('formString', JSON.stringify(information));
+}
+
 if (formString) {
   // Get references to the form elements
   const nameInput = document.getElementById('name');
@@ -18,13 +27,4 @@ if (formString) {
     emailInput.value = savedForm.email || '';
     messageInput.value = savedForm.message || '';
   }
-}
-
-function saveFormToLocalStorage() {
-  const information = {
-    name: document.getElementById('name').value,
-    email: document.getElementById('email').value,
-    message: document.getElementById('message').value,
-  };
-  localStorage.setItem('formString', JSON.stringify(information));
 }
